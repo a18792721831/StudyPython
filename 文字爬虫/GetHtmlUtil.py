@@ -13,9 +13,3 @@ def getHtml(url):
         response = requests.request('GET', url = url.strip(), headers = header, timeout = 60)
         response.encoding = 'utf-8'
         return response.text
-
-
-# print(getHtml('http://www.xbiquge.la/13/13959/5939025.html'))
-import os
-# file = open('E:\my.txt', 'w')
-# file.write(getHtml('http://www.xbiquge.la/13/13959/5939025.html'))
