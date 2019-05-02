@@ -1,6 +1,3 @@
-from bs4 import BeautifulSoup
-
-
 def getNextUrl(soup):
     baseTag = soup.select("div[class='header_logo'] > a")
     if len(baseTag):
