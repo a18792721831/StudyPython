@@ -1,5 +1,6 @@
 from GetHtmlUtil import getHtml
 from bs4 import BeautifulSoup
+from demjson import decode
 import re
 
 
@@ -11,7 +12,7 @@ def getMhInfo(url):
     if script:
         par = re.compile(r'\{.*')
         script = re.search(par, script.group())
-        return script.group()
+        return decode(str(script.group()))
 
 
 url = "https://www.manhuatai.com/nitianxieshen/60.html"
