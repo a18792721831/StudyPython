@@ -10,14 +10,3 @@ def getImagePath(mh_info):
     for n in range(1, mh_info['totalimg']):
         result.append(one_result + str(n) + '.' + mh_info['image_suffix'] + mh_info['comic_size'] + '.webp')
     return result
-
-
-# from GetMhInfo import getMhInfo
-# url = "https://www.manhuatai.com/nitianxieshen/60.html"
-# print(getImagePath(getMhInfo(url)))
-
-
-
-
-
-
