@@ -1,6 +1,7 @@
 from PIL import Image
 import os
 
+
 def webp2Jpg(sourceFile):
     image = Image.open(sourceFile)
     image.load()
