@@ -22,5 +22,3 @@ def getWebObj(url):
                 else:
                     print(url)
                     return None
-
-getWebObj('https://sasdasdasda')

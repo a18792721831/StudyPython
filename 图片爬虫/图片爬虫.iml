@@ -4,6 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="文字爬虫" exported="" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
