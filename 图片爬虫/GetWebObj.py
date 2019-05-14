@@ -18,9 +18,8 @@ def getWebObj(url):
             except:
                 if flag < 20 :
                     time.sleep(2)
+                    flag += 1
                     continue
                 else:
                     print(url)
                     return None
-
-getWebObj('https://sasdasdasda')
