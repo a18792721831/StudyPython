@@ -30,12 +30,13 @@ cursor.close()
 # 关闭数据库
 conn.close()
 
-# print(one_data)
+print(one_data)
+print(len(one_data))
 # print(all_data)
 # print(any_data)
 
-print(len(all_data))
-for i in all_data.__iter__():
-    print(i)
+# print(len(all_data))
+# for i in all_data.__iter__():
+#     print(i)
 
 # https://cx-oracle.readthedocs.io/en/latest/
