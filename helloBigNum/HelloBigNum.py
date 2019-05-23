@@ -28,3 +28,4 @@ newdf = DataFrame({
 })
 print(newdf)
 print(newdf * newdf)
+help(DataFrame)
