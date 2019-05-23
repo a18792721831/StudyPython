@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="/statics?path=css/extcss/theme-classic-all.css" rel="stylesheet">
+    <script type="text/javascript" src="/statics?path=js/extjs/ext.js"></script>
+    <script type="text/javascript">
+        Ext.onReady(function () {
+            Ext.create('Ext.Panel',{
+                renderTo : 'helloWorldPanel',
+                height : 200,
+                width : 600,
+                title : 'Hello World',
+                html : 'This is my frist ext panel'
+            });
+        });
+    </script>
 </head>
 <body>
-    <form action="/login" method="post">
-        username:<input type="text" name="username">
-        <br>
-        password:<input type="password" name="password">
-        <br>
-        <input type="reset" value="重置"><input type="submit" value="提交">
-    </form>
+    <div id="helloWorldPanel"></div>
 </body>
 </html>
